@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shortify</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="images/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
+    <script defer src="main.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav class="navbar">
+          <div class="nav-heading">
+            <h1 class="nav-heading">Shortify</h1>
+            <ul class="nav-links">
+              <li><a href="#">Features</a></li>
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">Resources</a></li>
+            </ul>
+          </div>
+          <div class="nav-buttons">
+            <a href="#" class="btn btn-login">Login</a>
+            <a href="#" class="btn btn-signup">Sign Up</a>
+          </div>
+          <button class="menu-btn hidden">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </nav>
+        <div class="links_mobile hidden">
+          <ul class="nav-links">
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Resources</a></li>
+          </ul>
+          <div class="nav-buttons">
+            <a href="#" class="btn btn-login">Login</a>
+            <a href="#" class="btn btn-signup">Sign Up</a>
+          </div>
+          <button class="close-menu">
+            <i class="fa-solid fa-times"></i>
+          </button>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="container">
+          <div class="hero-content">
+            <h1>More than just shorter links</h1>
+            <p>
+              Build your brand's recognition and get detailed insights on how
+              your links are performing.
+            </p>
+            <a href="#" class="btn btn-get-started">Get Started</a>
+          </div>
+        </div>
+      </section>
+      <section class="shorten">
+        <div class="container">
+          <div class="shorten-form">
+            <input
+              type="text"
+              placeholder="Shorten a link here..."
+              class="shorten-input"
+            />
+            <button class="btn btn-shorten">Shorten It!</button>
+          </div>
+          <span class="error-text"></span>
+        </div>
+        <div class="shortened_links"></div>
+        <div class="section_statistics">
+          <h2>Avanced Statistics</h2>
+          <p>
+            Track how your links are performing across the web with our advanced
+            statistics dashboard.
+          </p>
+        </div>
+        <div class="cards">
+          <div class="card">
+            <div class="card-icon">
+              <img src="images/icon-brand-recognition.svg" alt="" />
+            </div>
+            <h3>Brand Recognition</h3>
+            <p>
+              Boost your brand recognition with each click. Generic links don't
+              mean a thing. Branded links help instil confidence in your
+              content.
+            </p>
+          </div>
+          <div class="card">
+            <div class="card-icon">
+              <img src="images/icon-detailed-records.svg" alt="" />
+            </div>
+            <h3>Detailed Records</h3>
+            <p>
+              Gain insights into who is clicking your links. Knowing when and
+              where people engage with your content helps inform better
+              decisions.
+            </p>
+          </div>
+          <div class="card">
+            <div class="card-icon">
+              <img src="images/icon-fully-customizable.svg" alt="" />
+            </div>
+            <h3>Fully Customizable</h3>
+            <p>
+              Improve brand awareness and content discoverability through
+              customizable links, supercharging audience engagement.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="boost">
+        <div class="container">
+          <h2>Boost your links today</h2>
+          <a href="#" class="btn btn-get-started">Get Started</a>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="container">
+          <div class="footer-content">
+            <h1>Shortify</h1>
+            <ul class="footer-links">
+              <h3>Features</h3>
+              <li><a href="#">Link Shortening</a></li>
+              <li><a href="#">Branded Links</a></li>
+              <li><a href="#">Analytics</a></li>
+            </ul>
+            <ul class="footer-links">
+              <h3>Resources</h3>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Developers</a></li>
+              <li><a href="#">Support</a></li>
+            </ul>
+            <ul class="footer-links">
+              <h3>Company</h3>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Our Team</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+            <div class="footer-socials">
+              <a href="https://web.facebook.com/profile.php?id=100078682912213"
+                ><img src="images/icon-facebook.svg" alt="Facebook"
+              /></a>
+              <a href="https://twitter.com/yyazansamer"
+                ><img src="images/icon-twitter.svg" alt="Twitter"
+              /></a>
+              <a href="#"
+                ><img src="images/icon-pinterest.svg" alt="Pinterest"
+              /></a>
+              <a href="https://www.instagram.com/yyazanalqaderi/"
+                ><img src="images/icon-instagram.svg" alt="Instagram"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+    <script
+      src="https://kit.fontawesome.com/a7a2263aa1.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
